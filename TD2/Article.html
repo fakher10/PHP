@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Ajouter un article</title>
+</head>
+<body>
+
+ <h3 align=center><FONT size="10" color="blue" align=center> <I><B>Formulaire d'ajout d'article</B></I></FONT>
+
+    <form action="Article.php" method="post">
+        <label for="reference">Reference :</label>
+        <input type="text" id="reference" name="reference" required><br><br>
+
+        <label for="libelle">Libelle :</label>
+        <input type="text" id="libelle" name="libelle" required><br><br>
+
+        <label for="fournisseur">Fournisseur :</label>
+        <select id="fournisseur" name="fournisseur">
+            <option value="fournisseur1">Fournisseur 1</option>
+            <option value="fournisseur2">Fournisseur 2</option>
+            <option value="fournisseur3">Fournisseur 3</option>
+        </select><br><br>
+
+        <label for="pointDeVente">Point de vente :</label>
+
+        <label for="gabes">gabes</label>
+        <input type="checkbox" id="gabes" name="gabes">
+
+        <label for="sfax">sfax</label>
+        <input type="checkbox" id="sfax" name="sfax"><br><br>
+
+
+
+        <label for="prix">Prix :</label>
+        <input type="text" id="prix" name="prix" required><br><br>
+
+        <label for="quantiteStock">Qt en stock :</label>
+        <input type="text" id="quantiteStock" name="quantiteStock" required><br><br>
+
+        <input type="submit" value="Enregistrer">
+    </form>
+
+</body>
+</html>
